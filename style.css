@@ -1,12 +1,11 @@
 body {
     font-family: 'helvetica neue',helvetica,arial,sans-serif;
-    -webkit-tap-highlight-color: transparent;
     font-size: 13px;
     line-height: 1.308em;
 }
 input,button {
     height: 48px;
-    margin-top: 15px;
+    margin-top: 15px!important;
     z-index: 1;
     border-radius: 2px;
 }
@@ -20,6 +19,7 @@ input,button {
     width: 478px;
 }
 button {
+    background: url(https://s.yimg.com/pv/static/img/header_1x-1518478330077.min.png) no-repeat;
     padding: 12px 30px 9px 10px;
     border-bottom: 1px solid #4600bf;
     border-right: 1px solid #4600bf;
