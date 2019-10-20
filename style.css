@@ -3,6 +3,13 @@ body {
     font-size: 13px;
     line-height: 1.308em;
 }
+ul {
+    list-style: none;
+}
+header {
+    height: 80px;
+    border-bottom: 1px solid #E2E2E6;
+}
 input,#submit {
     height: 48px;
     margin-top: 15px!important;
@@ -61,4 +68,26 @@ input,#submit {
 #icon-close:hover {
     color: #CACACC;
     cursor: pointer;
+}
+nav {
+    height: 30px;
+    width: 100%;
+    margin-top: 16px;
+    border-bottom: 1px solid #E2E2E6;
+}
+nav ul {
+    margin-left: 70px;
+    height: 1;
+
+}
+nav li {
+    float: left;
+    margin-right: 12px;
+}
+nav li a {
+    color: #B4B4B7;
+    -webkit-font-smoothing: antialiased;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 16px;
 }
