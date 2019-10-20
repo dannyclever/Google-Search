@@ -1,0 +1,22 @@
+body {
+    font-family: 'helvetica neue',helvetica,arial,sans-serif;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 13px;
+    line-height: 1.308em;
+}
+form  {
+    margin: 0;
+    padding: 0;
+}
+#search-field  {
+    padding: 12px 30px 12px 10px;
+    color: #333;
+    border: 1px solid #CACACC;
+    border-radius: 2px;
+    height: 22px;
+    margin-right: -2px;
+    font-size: 18px;
+    z-index: 1;
+    box-shadow: 0 1px 4px rgba(0,0,0,0.2);
+    width: 478px;
+}
