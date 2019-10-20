@@ -9,6 +9,7 @@ ul {
 header {
     height: 80px;
     border-bottom: 1px solid #E2E2E6;
+    background-color: #F1F1F1!important;
 }
 input,#submit {
     height: 48px;
@@ -112,4 +113,20 @@ nav ul .active a {
     padding: 0;
     font-size: 17px;
     color: #B4B4B7;
+}
+main {
+    height: 450px;
+    position: relative;
+    top: 46px;
+}
+.pub {
+    margin: 23px 0px 23px 110px;
+}
+.pub span {
+    color: #5F5F5F;
+    font-size: 14px;
+}
+.pub a {
+    color: #000099;
+    font-size: 14px;
 }
