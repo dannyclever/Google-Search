@@ -3,11 +3,15 @@ body {
     font-size: 13px;
     line-height: 1.308em;
 }
-input,button {
+input,#submit {
     height: 48px;
     margin-top: 15px!important;
     z-index: 1;
     border-radius: 2px;
+}
+.container {
+    display: flex;
+    justify-content: space-between;
 }
 #search-field  {
     padding: 12px 30px 12px 10px;
@@ -16,9 +20,9 @@ input,button {
     margin-right: -5px;
     font-size: 18px;
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
-    width: 478px;
+    width: 500px;
 }
-button {
+#submit {
     background: url(https://s.yimg.com/pv/static/img/header_1x-1518478330077.min.png) no-repeat;
     padding: 12px 30px 9px 10px;
     border-bottom: 1px solid #4600bf;
@@ -37,4 +41,24 @@ button {
     -webkit-appearance: none;
     outline: none;
     vertical-align: bottom;
+}
+.logo-yahoo img {
+    margin-top: 23px;
+}
+#icon-close {
+    position: absolute;
+    top: 16px;
+    left: 551px;
+    cursor: pointer;
+    border: none;
+    background-color: #FFF;
+    padding: 6px;
+    z-index: 2;
+    width: 27px;
+    font-size: 20px;
+    color: transparent;
+}
+#icon-close:hover {
+    color: #CACACC;
+    cursor: pointer;
 }
