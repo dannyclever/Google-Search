@@ -4,19 +4,37 @@ body {
     font-size: 13px;
     line-height: 1.308em;
 }
-form  {
-    margin: 0;
-    padding: 0;
+input,button {
+    height: 48px;
+    margin-top: 15px;
+    z-index: 1;
+    border-radius: 2px;
 }
 #search-field  {
     padding: 12px 30px 12px 10px;
     color: #333;
     border: 1px solid #CACACC;
-    border-radius: 2px;
-    height: 22px;
-    margin-right: -2px;
+    margin-right: -5px;
     font-size: 18px;
-    z-index: 1;
     box-shadow: 0 1px 4px rgba(0,0,0,0.2);
     width: 478px;
+}
+button {
+    padding: 12px 30px 9px 10px;
+    border-bottom: 1px solid #4600bf;
+    border-right: 1px solid #4600bf;
+    box-shadow: 0 1px 4px 0 rgba(0,0,0,0.2);
+    border-radius: 0 2px 2px 0;
+    margin-right: 12px;
+    width: 80px;
+    font-size: 0;
+    z-index: 1;
+    border: 0;
+    background-position: center 10px;
+    background-color: #542dfe;
+    cursor: pointer;
+    position: relative;
+    -webkit-appearance: none;
+    outline: none;
+    vertical-align: bottom;
 }
