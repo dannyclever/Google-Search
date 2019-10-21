@@ -116,7 +116,7 @@ nav ul .active a {
 main {
     height: 450px;
     position: relative;
-    top: 46px;
+    top: -2px;
 }
 .alternative {
     margin: 23px 0px 23px 97px;
