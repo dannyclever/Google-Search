@@ -153,7 +153,13 @@ main {
     font-size: 14px;
     margin: 0;
     padding: 0;
+    margin-top: -4px;
 }
+.linksSite h2:after { 
+    content: "⌄";
+    font-size: 21px;
+    color: #007542;
+  }
 .linksSite p {
     line-height: 16px;
     margin: 0;
