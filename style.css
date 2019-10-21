@@ -78,7 +78,7 @@ nav {
     position: fixed;
 }
 nav ul {
-    margin-left: 70px;
+    margin-left: 54px;
     height: 1;
 
 }
@@ -119,14 +119,46 @@ main {
     position: relative;
     top: 46px;
 }
-.pub {
-    margin: 23px 0px 23px 110px;
+.alternative {
+    margin: 23px 0px 23px 97px;
 }
-.pub span {
+.alternative span {
     color: #5F5F5F;
     font-size: 14px;
 }
-.pub a {
+.alternative a {
     color: #000099;
     font-size: 14px;
+}
+.alternative a:hover {
+    color: #000099;
+}
+.linksSite {
+    margin-left: 92px;
+    margin-right: 565px;
+    font-size: 13px;
+}
+.linksSite h3 {
+    margin: 0;
+    padding: 0;
+    margin-top: -20px!important;
+}
+.linksSite h3 a {
+    font-size: 18px;
+    color: #000099;
+}
+.linksSite h2 {
+    color: #007542;
+    line-height: 16px;
+    font-size: 14px;
+    margin: 0;
+    padding: 0;
+}
+.linksSite p {
+    line-height: 16px;
+    margin: 0;
+    padding: 0;
+}
+.linksSite section {
+    margin-bottom: 22px;
 }
