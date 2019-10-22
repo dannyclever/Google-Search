@@ -132,6 +132,9 @@ main {
 .alternative a:hover {
     color: #000099;
 }
+.down {
+    margin-left: 2px;
+}
 .linksSite {
     margin-left: 92px;
     margin-right: 565px;
