@@ -170,3 +170,32 @@ main {
 .linksSite section {
     margin-bottom: 38px;
 }
+.listResults {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+.listResults ul {
+    display: flex;
+    position: relative;
+    margin-left: -40px;
+}
+.listResults li {
+    margin-top: 0;
+}
+.listResults ul input {
+    background-color: #f7f7f8;
+    border-radius: 2px;
+    color: #525252;
+    margin: 0 8px 0 0;
+    border: 1px solid #fafafc;
+    padding: 2px 8px;
+    text-align: center;
+    height: 22px;
+}
+.listResults input:hover {
+    border-color: #525252;
+}
+.results  {
+    margin-top: 19px;
+}
