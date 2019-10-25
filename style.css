@@ -87,6 +87,7 @@ nav li {
     height: 16;
     padding-bottom: 3px;
 }
+
 nav li a {
     color: #B4B4B7;
     -webkit-font-smoothing: antialiased;
@@ -94,17 +95,21 @@ nav li a {
     font-size: 13px;
     line-height: 16px;
 }
+
 nav li a:hover {
     text-decoration: none;
     color: #313050;
 }
+
 nav ul .active {
     color: #313050!important;
     border-bottom: 2px solid #313050!important;
 }
+
 nav ul .active a {
     color: #313050!important;
 }
+
 .more {
     background-color: white;
     border: none;
@@ -113,42 +118,52 @@ nav ul .active a {
     font-size: 17px;
     color: #B4B4B7;
 }
+
 main {
-    height: 450px;
+    height: 1144px;
     position: relative;
     top: -2px;
 }
+
 .alternative {
-    margin: 23px 0px 0 97px;
+    margin: 23px 0px 40px 97px;
 }
+
 .alternative span {
     color: #5F5F5F;
     font-size: 14px;
 }
+
 .alternative a {
     color: #000099;
     font-size: 14px;
 }
+
 .alternative a:hover {
     color: #000099;
 }
+
 .down {
-    margin-left: 2px;
+    margin: 27px 0px 0px 0px;
 }
+
 .linksSite {
     margin-left: 92px;
     margin-right: 565px;
     font-size: 13px;
 }
+
 .linksSite h3 {
     margin: 0;
     padding: 0;
     margin-top: -20px!important;
 }
+
 .linksSite h3 a {
     font-size: 18px;
     color: #000099;
 }
+
 .linksSite h2 {
     color: #007542;
     line-height: 16px;
@@ -157,32 +172,39 @@ main {
     padding: 0;
     margin-top: -4px;
 }
+
 .linksSite h2:after { 
     content: "⌄";
     font-size: 21px;
     color: #007542;
-  }
+}
+
 .linksSite p {
     line-height: 16px;
     margin: 0;
     padding: 0;
 }
+
 .linksSite section {
     margin-bottom: 38px;
 }
+
 .listResults {
     display: flex;
     justify-content: space-between;
     position: relative;
 }
+
 .listResults ul {
     display: flex;
     position: relative;
     margin-left: -40px;
 }
+
 .listResults li {
     margin-top: 0;
 }
+
 .listResults ul input {
     background-color: #f7f7f8;
     border-radius: 2px;
@@ -193,13 +215,57 @@ main {
     text-align: center;
     height: 22px;
 }
+
 #one {
     border-color: #525252;
     font-weight: bold;
 }
+
 .listResults input:hover {
     border-color: #525252;
 }
+
 .results  {
     margin-top: 19px;
+}
+
+footer {
+    position: relative;
+    border-top: 1px solid #e2e2e6;
+    width: auto;
+    background-color: #f1f1f1;
+    height: 50px;
+    vertical-align: 0 auto;
+}
+
+.contentInfo {
+    margin-top: 17px;
+}
+
+.contentInfo ul {
+    display: flex;
+    font-size: 11px;
+    margin-left: 66px;
+}
+
+.contentInfo li {
+    margin-left: 0;
+    margin-right: 32px;   
+}
+
+.contentInfo li a {
+    color: #525252;
+}
+
+.contentInfo li:first-child {
+    font-size: 14px; 
+    margin-top: -4px;
+}
+
+a.pseudo::after {
+    content: "(Mis à jour)";
+    color: #324FE1;
+    font-weight: bold;
+    padding-left: 4px;
+    text-decoration: none;
 }
